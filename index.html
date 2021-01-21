@@ -5,16 +5,16 @@
 		<meta name="viewport" content="width=device-width">
 		<title>Form Practice</title>
 		<link href="style.css" rel="stylesheet" type="text/css" />
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<script type = "text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<script>function onSubmit(token) {document.getElementById("FormPractice").submit();}</script>
 	</head>
 	<body>
 		<h1> Send Me a Message</h1>
-		<form action = "https://formspree.io/f/mzbkorby" method = "post">
+		<form id = "FormPractice" action = "https://formspree.io/f/mzbkorby" method = "post">
 			<input id = "name" type = "text" name = "name"  placeholder = "What is your name?" required><br>
 			<input id = "email" type = "email" name = "email" placeholder = "youremail@gmail.com" required><br>
 			<textarea id = "message" type = "text" name = "message" placeholder = "How can I help you?" required></textarea><br>
-			<button 
-				type = "submit"
+			<button
 				class = "g-recaptcha" 
 				data-sitekey = "6LfPADYaAAAAANfoeGdKjU-_hd16IdaLz5P_tm4S" 
 				data-callback = "onSubmit" 
@@ -22,8 +22,5 @@
 			</button>
 			<button type = "reset">Reset</button>
 		</form>
-		<script>
-			function onSubmit(token) {document.getElementById("FormPractice").submit();}
- 		</script>
 	</body>
 </html>
