@@ -10,7 +10,7 @@ form textarea {
 	color: black;
 	font-size: 16px;
 	margin-bottom: 20px;
-	height: 800px;
+	height: 400px;
 	width: 100%;
 }
 
@@ -24,6 +24,6 @@ form input {
 
 @media all and (min-width: 800px) {
 	form input, form textarea {
-		width: 800px;
+		width: 400px;
 	}
 }
