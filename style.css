@@ -6,18 +6,15 @@ form label {
 	font-family: arial;
 }
 
-form input {
-	height: 20px;
-	width: 200px;
-}
-
 form textarea {
 	height: 200px;
 	width: 200px;
 }
 
-form input[type=text] {
+form input {
 	color: black;
 	font-size: 16px;
 	margin-bottom: 20px;
+	height: 20px;
+	width: 200px;
 }
