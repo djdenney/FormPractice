@@ -10,20 +10,23 @@ form textarea {
 	color: black;
 	font-size: 16px;
 	margin-bottom: 20px;
+	margin-right: 40px;
 	height: 400px;
-	width: 100%;
+	width: 98%;
 }
 
 form input {
 	color: black;
 	font-size: 16px;
 	margin-bottom: 20px;
+	margin-right: 40px;
 	height: 20px;
-	width: 100%;
+	width: 98%;
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 600px) {
 	form input, form textarea {
-		width: 400px;
+		width: 600px;
+		margin-right: 20px;
 	}
 }
