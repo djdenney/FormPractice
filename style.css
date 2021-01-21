@@ -7,6 +7,9 @@ form label {
 }
 
 form textarea {
+	color: black;
+	font-size: 16px;
+	margin-bottom: 20px;
 	height: 200px;
 	width: 200px;
 }
@@ -17,4 +20,10 @@ form input {
 	margin-bottom: 20px;
 	height: 20px;
 	width: 200px;
+}
+
+@media all and (min-width: 800px) {
+	form input, form textarea {
+		max-width: 100%;
+	}
 }
