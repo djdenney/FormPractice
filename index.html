@@ -7,7 +7,14 @@
 		<link href="style.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeKlCA8RqJlu4_Jlo-oNd8wJgcf94RMIdA6Kl62IEK_6cxksA/viewform?embedded=true" width="640" height="705" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		<h1> Send Me a Message</h1>
+		<form action = "https://formspree.io/f/mzbkorby method = "post">
+			<input id = "name" type = "text" name = "name"  placeholder = "What is your name?" required>
+			<input id = "email" type = "email" name = "email" placeholder = "youremail@gmail.com" required>
+			<textarea id = "message" type = "text" name = "message" placeholder = "How can I help you?" required>
+			<button type = "submit">Send</button>
+			<button type = "reset">Reset</button?
+		</form>
 		<script src="script.js"></script>
 	</body>
 </html>
